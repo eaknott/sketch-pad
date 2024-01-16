@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Sketch Pad</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="paintbrush-solid.svg">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <h2>Sketch Pad</h2>
+        <div id="container">
+            <div id="changes">
+                <div class="coloringMode">Coloring Mode: ON</div>
+                <input 
+                    type="text" 
+                    placeholder="Size of pad" 
+                    onchange="changeSize(this.value)">
+                <button class="setSizeButton">Set size</button>
+                <div class="errorMessage">Set a size from 2 to 100</div>
+                <div class="buttons">
+                    <button class="blackButton" onclick="changeColor('black')">Black</button>
+                    <button class="redButton" onclick="changeColor('red')">Red</button>
+                    <button class="greenButton" onclick="changeColor('green')">Green</button>
+                    <button class="randomButton" onclick="changeColor('random')">Random</button>
+                    <button class="eraserButton" onclick="changeColor('white')">Eraser</button>
+                </div>
+                <button class="resetButton" onclick="resetGrid()">CLEAR PAD</button>
+            </div>
+            <div id="grid-container"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,117 @@
+body {
+    background-color: #8CC084;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: American Typewriter, serif;
+    font-weight: 700;
+    color: black;
+    width: 300px;
+    margin-left: 61%;
+    position: relative;
+    top: 40px;
+    right: 5px;
+}
+
+#grid-container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #968E85;
+    color: #ECDCB0;
+}
+
+#container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 40px;
+}
+
+.coloringMode {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #968E85;
+}
+
+.errorMessage {
+    display: none;
+}
+
+.setSizeButton {
+    margin-top: 5px;
+    background-color: #968E85;
+    color: #ECDCB0;
+    font-weight: 500;
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+}
+
+#changes {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 30px;
+    background-color: #C1D7AE;
+    padding: 40px 17px 32px 17px;
+    height: 380px;
+    border-radius: 7px;
+    border: 2px solid #968E85;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.blackButton, .redButton, .greenButton, .randomButton, .eraserButton, .resetButton {
+    display: flex;
+    justify-content: center;
+    padding: 5px 6px;
+    margin: 3px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.blackButton {
+    background-color: black;
+    color: white;
+}
+
+.redButton {
+    background-color: red;
+    color: white;
+}
+
+.greenButton {
+    background-color: green;
+    color: white;
+}
+
+.eraserButton {
+    background-color: rgb(255,182,193);
+    color: black;
+}
+
+.randomButton {
+    background: linear-gradient(45deg, #FC466B 0%, orange 20%, yellow 40%, green 60%, #3F5EFB 80%, purple 100%);
+    color: black;
+}
+
+.resetButton {
+    background-color: white;
+    display: flex;
+    margin-top: 70px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    border: 1px solid #ECDCB0;
+}
