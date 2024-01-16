@@ -8,7 +8,7 @@ The task is to make a simple digital sketch pad or something similar to an Etch-
 This Etch-a-Sketch is to be made using HTMl, CSS, Flexbox, and plain Javascript to manipulate the DOM. 
 
 
-HOW TO USE:
+**HOW TO USE:**
 
 The sketch pad is initialized to paint in blue. 
 
