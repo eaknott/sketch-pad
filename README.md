@@ -8,7 +8,7 @@ This Etch-a-Sketch is made using HTMl, CSS, Flexbox, and vanilla Javascript for 
 
 When first loaded, the pad grid size is initialized to a 16x16 grid of white tiles, the Coloring Mode is set to ON, and the user can "paint" with the mouse cursor in blue.
 
-<img src="Screenshot 2024-07-11 at 6.00.59 PM.png" width="400">
+<img src="initialized.png" width="400">
 
 ## Usage
 
@@ -20,7 +20,7 @@ To the left of the pad, there is a control panel with the following information 
 - Paintbrush color buttons: Black, Red, Green, Random, Eraser (white)
 - Clear Pad Button
 
-<img src="Screenshot 2024-07-11 at 6.06.50 PM.png" width="200">
+<img src="controlpanel.png" width="200">
 
 ### Coloring Mode
 
@@ -32,7 +32,7 @@ The input field just below the "Coloring Mode" is for generating the pad size. T
 
 The greater the input number, the greater the number of pixels in the sketch pad, and therefore the smaller the paintbrush strokes appear. For example, if the user inputs "2", then the sketch pad generated will be a grid of 2 by 2.
 
-<img src="Screenshot 2024-07-11 at 6.02.48 PM.png" width="400">
+<img src="twobytwogrid.png" width="400">
 
 ### Paintbrush Color Buttons
 
@@ -40,17 +40,17 @@ To change the paintbrush color, simply click on one of the buttons in the left-h
 
 Here is an example of the random color paintbrush with a grid size of 100x100:
 
-<img src="Screenshot 2024-07-11 at 6.01.57 PM.png" width="400">
+<img src="randompaint100by100.png" width="400">
 
 Another example below shows the red color paintbrush with a grid size of 32x32:
 
-<img src="Screenshot 2024-07-11 at 6.01.25 PM.png" width="400">
+<img src="redpaint32by32.png" width="400">
 
 ### Clearing the Pad
 
 To clear the sketch pad and start again with a clean slate, click on the button at the bottom of the control panel, marked "CLEAR PAD".
 
-<img src="Screenshot 2024-07-11 at 6.19.26 PM.png" width="400">
+<img src="clearedpad.png" width="400">
 
 ## Acknowledgments
 
