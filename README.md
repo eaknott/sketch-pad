@@ -8,11 +8,7 @@ This Etch-a-Sketch is made using HTMl, CSS, Flexbox, and vanilla Javascript for 
 
 When first loaded, the pad grid size is initialized to a 16x16 grid of white tiles, the Coloring Mode is set to ON, and the user can "paint" with the mouse cursor in blue.
 
-<<<<<<< HEAD
 <img src="Screenshot 2024-07-11 at 6.00.59 PM.png" width="400">
-=======
-**HOW TO USE:**
->>>>>>> origin
 
 ### Usage
 
@@ -46,7 +42,6 @@ Here is an example of the random color paintbrush with a grid size of 100x100:
 
 <img src="Screenshot 2024-07-11 at 6.01.57 PM.png" width="400">
 
-<<<<<<< HEAD
 Another example below shows the red color paintbrush with a grid size of 32x32:
 
 <img src="Screenshot 2024-07-11 at 6.01.25 PM.png" width="400">
@@ -61,6 +56,3 @@ To clear the sketch pad and start again with a clean slate, click on the button 
 
 This is a project built for The Odin Project's Foundations Course:
 https://www.theodinproject.com/lessons/foundations-etch-a-sketch
-=======
-The input field just below the "Coloring Mode" is for generating the pad size. The user can input any number between 2 and 100. The greater the number, the greater the number of pixels in the sketch pad, and the smaller the paintbrush strokes are. For example, if the user inputs "2", then the sketch pad generated will be a grid of 2 by 2. 
->>>>>>> origin
