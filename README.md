@@ -2,7 +2,7 @@
 
 This is a simple digital sketch pad, similar to an Etch-a-Sketch toy, created with an interactive square grid.
 
-## Description
+## Overview
 
 This Etch-a-Sketch is made using HTMl, CSS, Flexbox, and vanilla Javascript for DOM manipulation.
 
